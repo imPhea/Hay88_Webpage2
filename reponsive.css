@@ -1,0 +1,276 @@
+@media (min-width: 1300px){
+    .main_body{
+        padding: 20px;
+        width: 100%;
+    }
+    .box1 .text1{
+        padding: 30px;
+    }
+    .bodyContent {
+        width: 60%;
+        margin: auto;
+    }
+    .button1 .btn_txt1 {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+    .nav_bar, .mainTop{
+        width: 75%;
+    }
+    .nav_bar ul li a {
+        font-size: 1.5em;
+    }
+    .box1 .text1 p {
+        font-size: 22px;
+    }
+    footer p {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+@media (min-width: 1400px){
+    .maincard .card_box {
+        width: 23%;
+        height: 500px;
+    }
+    .box1, .background_img{
+        height:450px;
+    }
+    #myBtn{
+        font-size: 3em;
+    }
+}
+@media (max-width: 1400px){
+    .maincard .card_box {
+        width: 270px;
+        height: 400px;
+    }
+    .box1, .background_img{
+        height:450px;
+    }
+    #myBtn{
+        font-size: 2em;
+    }
+}
+@media (min-width: 1600px){
+    .box1, .background_img{
+        height:550px;
+    }
+}
+@media (max-width: 1600px){
+    .box1 .text1 p {
+        font-size: 19px;
+    }
+    footer p {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .nav_bar ul li a {
+        font-size: 1.3em;
+    }
+    .box1 .text1 p {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1700px){
+    .maincard .card_box {
+        height: 420px;
+    }
+}
+@media (max-width: 1317px){
+    .button1 .btn_txt1 {
+        padding: 10px 20px;
+        font-size: 1.3em;
+    }
+    .bodyContent {
+        width: 100%;
+    }
+    .nav_bar, .mainTop{
+        width: 100%;
+    }
+    p{
+        font-size: 20px;
+    }
+    .main_body{
+        padding: 20px;
+    }
+    .box1 .text1{
+        padding: 30px;
+    }
+    .main_body{
+        padding: 0 20px;
+    }
+    /* navbar */
+    .mainTop, .nav_bar {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .nav_bar ul li a {
+        font-size: 17px;
+    }
+    .nav_bar ul li a {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 1024px){
+    .button1{
+        width: 100%;
+    }
+    .button1 .btn_txt1{
+        margin-top: 10px;
+        width: 200px;
+    }
+    .button1 .btn_txt1 a {
+        font-size: smaller;
+    }
+    .main_body{
+        padding: 0 10px;
+    }
+    .box1, .background_img{
+        height:400px;
+    }
+}
+@media (max-width: 850px){
+    .box1,.background_img{
+        height:550px;
+    }
+    .button1{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .main_body{
+        width: 100%;
+    }
+    .box1 .text1{
+        padding: 20px 10px; 
+    }
+    footer p {
+        padding: px;
+        font-size: smaller;
+    }
+    .maincard .card_box {
+        height: 350px;
+    }
+    .txt_box1 {
+        width: 100%;
+    }
+    .txt_box{
+        width: 48%;
+    }
+}
+@media (min-width: 850px){
+    .txt_box1 {
+        width: 49.5%;
+    }
+    .txt_box{
+        width: 48%;
+    }
+}
+@media (max-width: 690px){
+    .box1,.background_img{
+        height:700px;
+    }
+}
+@media (min-width: 600px){
+    .card_pf {
+        width: 33%;
+    }
+    .Profile .card_pf .img_pf {
+        width: 60px;
+        height: 60px;
+    }
+    .card_box .content {
+        padding: 10px;
+    }
+    .picture_ img{
+        width: 85%
+    }
+}
+@media (max-width: 600px){
+    p, h1, h2, h3 {
+        font-size: medium;
+    }
+    .card_box .content {
+        padding: 5px;
+    }
+    .box1 .text1{
+        padding: 20px 10px; 
+    }
+    .button1 .btn_txt1{
+        padding: 7px 15px;
+    }
+    .maincard .card_box {
+        width: 48%;
+        height: 350px;
+    }
+    .card_box h3, .card_box p {
+        font-size: smaller;
+    }
+    .Profile .card_pf .img_pf {
+        width: 70px;
+        height: 70px;
+    }
+    .picture_ img{
+        width: 95%
+    }
+}
+@media (max-width: 1600px){
+    .box1 .text1 p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 450px){
+    .box1,.background_img{
+        height:800px;
+    }
+}
+@media (max-width: 400px){
+    .bodyContent .box1{
+        position: relative;
+        overflow: hidden;
+        background-color: black !important;
+    }
+    .maincard h3, .maincard .card_box .content p {
+        font-size: smaller;
+    }
+    .box1 .text1{
+        padding: 7px 7px;
+        font-size: smaller;
+    }
+    p, h1, h2, h3, a{
+        font-size: smaller;
+    }
+    .box1,.background_img{
+        height: 550px;
+    }
+    .main_navbar .nav_bar .logo{
+        width: 200px;
+    }
+    .button1 .btn_txt1{
+        padding: 5px 10px;
+    }
+    p, h1, h2, h3, a{
+        font-size: smaller;
+    }
+    .checkbtn {
+        margin: 5px 20px;
+    }
+    .box1 .text1 p {
+        font-size: smaller;
+    }
+    .text1 h1 {
+        margin-top: 10px;
+    }
+    .checkbtn {
+        font-size: 18px;
+    }
+    .main_navbar .nav_bar .logo{
+        max-width: 100px;
+    }
+    footer p {
+        padding: 2px;
+        font-size: 5;
+    }
+}
+

@@ -1,0 +1,227 @@
+/*  body  */
+.bodyContent .box1{
+    position: relative;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box1, .background_img{
+    width: 100%;
+}
+.background_img {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.box1 .text1 {
+    position: absolute;
+    color: #fff;
+}
+.box1 .text1 h1 {
+    text-align: center;
+}
+.box1 .text1 p {
+    line-height: 200%;
+}
+span {
+    color: red;
+}
+.text1 span {
+    color: #ffe600;
+}
+.button1 {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1 .btn_txt1 {
+    border-radius: 7px;
+    border: none;
+}
+.button1 .btn_txt1 a {
+    color: #ff0000;
+}
+.button1 .btn_txt1:hover{
+    background: rgb(63, 10, 161);
+}
+.red_box2{
+    background: #ff000017;
+    border: 1px red solid;
+    padding: 15px;
+}
+.red_box3 {
+    border: 1px solid red;
+    padding: 15px;
+}
+.red_box3 p {
+    line-height: 250%;
+}
+.picture_ {
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+
+/* blue box */
+.blue_box3 {
+    width: 100%;
+    padding: 15px;
+    border: 3px solid #03dbbe8f;
+    background: #2bffbf13;
+}
+.blue_box3 li {
+    padding: 7px;
+}
+.line_left {
+    padding: 5px 20px;
+    border-left: 3px solid #000;
+}
+.line_left h3{
+    font-weight: 550;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    opacity: .8;
+}
+table tr{
+    border-bottom: 1px solid #000;
+}
+table tr td {
+    padding: 5px;
+}
+
+/* .card menu */
+.maincard {
+    width: 100%;
+    display: flex;
+    padding: 2px 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.maincard .card_box {
+    margin: 1%;
+    margin-top: 15px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+.maincard .card_box .img_box {
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0 ;
+}
+.img_box .noBox {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    left: -5px;
+    border: 2px #000 solid;
+    text-align: center;
+    background: #fff;
+    font-size: 15px;
+}
+.card_box:hover .noBox{
+    background: #000;
+    color: #fff;
+}
+.maincard .card_box h3{
+    font-weight: 550;
+}
+.maincard .card_box p {
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+/* footer part */
+.br_foot{
+    padding: 15px 0;
+    border-bottom: 2px #80808062 solid;
+}
+.Profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Profile .card_pf {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.pf_cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Profile .card_pf .img_pf {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.Profile .card_pf .content_txt {
+    width: 70%;
+}
+.Profile .card_pf .content_txt h3{
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px #80808062 solid;
+}
+.Profile .card_pf .content_txt p{
+    font-size: smaller;
+}
+
+/* contact footer */
+.con_footer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-top: 2px solid #555;
+}
+.txt_box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.con_footer .txt_box h3{
+    text-align: center;
+}
+.con_footer .txt_box h4{
+    color: #ff7300;
+    font-size: 17px;
+}
+.txt_box p{
+    font-size: 12px;
+}
+.txt_box h3{
+    font-size: 18px;
+}
+.txt_box {
+    margin-top: 20px;
+}
+
+
+/* footer */
+footer {
+    background: #2f0e4e;
+    color: #868686;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+footer p {
+    text-align: center;
+}
